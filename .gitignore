@@ -1,0 +1,51 @@
+# =====================================================================
+# AuraFlow — Root .gitignore (Unified Cross-Platform Repository)
+# =====================================================================
+
+# --- Python ---
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# --- Swift & macOS ---
+.build/
+.swiftpm/
+DerivedData/
+*.xcworkspace
+*.xcuserstate
+xcuserdata/
+.DS_Store
+
+# --- Operating Systems & Editors ---
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+
+# --- Temporary Captures, Test Artifacts & Logs ---
+debug_cam_*.jpg
+debug_cam_*.png
+live_window_capture.png
+test_widget_render.png
+*.log
+/tmp/
+
+# --- Security & Credentials ---
+*.p12
+*.p8
+*.pem
+*.key
+.env
+.env.*
+!.env.example
