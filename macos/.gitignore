@@ -1,0 +1,24 @@
+# Swift Package Manager and generated application bundles
+.build/
+.swiftpm/
+build/
+DerivedData/
+
+# Local compiled experiment
+/main
+
+# macOS and editor state
+.DS_Store
+xcuserdata/
+*.xcuserstate
+.idea/
+.vscode/
+
+# Local credentials and environment settings
+.env
+.env.*
+!.env.example
+*.p12
+*.p8
+*.pem
+*.key

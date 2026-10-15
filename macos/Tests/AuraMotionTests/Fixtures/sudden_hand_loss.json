@@ -1,0 +1,46 @@
+{
+  "sessionID": "sudden_hand_loss",
+  "startTime": "2026-09-07T00:00:00Z",
+  "samples": [
+    {
+      "hostTimestamp": 200.00,
+      "presentationTimeSeconds": 200.00,
+      "isPresentationTimeEstimated": false,
+      "joints": {
+        "wrist": { "name": "wrist", "position": [0.5, 0.2], "confidence": 0.9 },
+        "middleMCP": { "name": "middleMCP", "position": [0.5, 0.4], "confidence": 0.9 },
+        "indexTip": { "name": "indexTip", "position": [0.5, 0.6], "confidence": 0.9 }
+      },
+      "overallConfidence": 0.9,
+      "estimatedHandedness": "right",
+      "trackingID": 1
+    },
+    {
+      "hostTimestamp": 200.03,
+      "presentationTimeSeconds": 200.03,
+      "isPresentationTimeEstimated": false,
+      "joints": {},
+      "overallConfidence": 0.0,
+      "estimatedHandedness": "unknown",
+      "trackingID": 1
+    },
+    {
+      "hostTimestamp": 200.06,
+      "presentationTimeSeconds": 200.06,
+      "isPresentationTimeEstimated": false,
+      "joints": {},
+      "overallConfidence": 0.0,
+      "estimatedHandedness": "unknown",
+      "trackingID": 1
+    },
+    {
+      "hostTimestamp": 200.09,
+      "presentationTimeSeconds": 200.09,
+      "isPresentationTimeEstimated": false,
+      "joints": {},
+      "overallConfidence": 0.0,
+      "estimatedHandedness": "unknown",
+      "trackingID": 1
+    }
+  ]
+}

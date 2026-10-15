@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleIdentifier</key>
+    <string>com.ayush.AuraMotion</string>
+    <key>CFBundleName</key>
+    <string>AuraMotion</string>
+    <key>CFBundleDisplayName</key>
+    <string>AuraMotion Pro</string>
+    <key>CFBundleExecutable</key>
+    <string>AuraMotion</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.0.0</string>
+    <key>CFBundleVersion</key>
+    <string>1</string>
+    <key>LSMinimumSystemVersion</key>
+    <string>14.0</string>
+    <key>LSUIElement</key>
+    <true/>
+    <key>NSCameraUsageDescription</key>
+    <string>AuraMotion requires access to your camera to detect hand gestures for on-screen cursor navigation and system controls. All processing is strictly performed on-device in real-time, and video is never stored or uploaded.</string>
+    <key>NSHighResolutionCapable</key>
+    <true/>
+</dict>
+</plist>
